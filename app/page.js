@@ -1,5 +1,6 @@
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
+import FeatureCards from "@/components/feature-cards";
 import AppShowcase from "@/components/showcase-section";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <AppShowcase />
+      <FeatureCards />
     </>
   );
 }
