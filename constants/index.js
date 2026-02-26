@@ -1,3 +1,7 @@
+import { Github, Linkedin } from "lucide-react";
+
+import { XIcon } from "@/components/x-icon";
+
 export const navLinks = [
   {
     name: "Work",
@@ -50,5 +54,23 @@ export const abilities = [
     imgPath: "/time.png",
     title: "On-Time Delivery",
     desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+  },
+];
+
+export const socialLinks = [
+  {
+    icon: Github,
+    href: "https://github.com/AayushGupta69",
+    label: "GitHub",
+  },
+  {
+    icon: Linkedin,
+    href: "https://linkedin.com/in/aayushgupta69",
+    label: "LinkedIn",
+  },
+  {
+    icon: XIcon,
+    href: "https://x.com/AayushGupta69",
+    label: "X",
   },
 ];
