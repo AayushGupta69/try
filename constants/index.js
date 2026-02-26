@@ -34,3 +34,21 @@ export const counterItems = [
   { value: 7, suffix: "+", label: "Techs Mastered" },
   { value: 95, suffix: "%+", label: "Stability Achieved" },
 ];
+
+export const abilities = [
+  {
+    imgPath: "/seo.png",
+    title: "Quality Focus",
+    desc: "Delivering high-quality results while maintaining attention to every detail.",
+  },
+  {
+    imgPath: "/chat.png",
+    title: "Reliable Communication",
+    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+  },
+  {
+    imgPath: "/time.png",
+    title: "On-Time Delivery",
+    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+  },
+];
